@@ -1,19 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Alexander Køpke - Professionel Profil</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section-title {
+            margin-bottom: 40px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <h1 class="display-4">Welcome to My GitHub Page!</h1>
-        <p class="lead">This is a simple webpage built with Bootstrap.</p>
-        <a href="https://getbootstrap.com" class="btn btn-primary btn-lg">Learn Bootstrap</a>
-    </div>
-    <!-- Bootstrap JS (optional) -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alexander Køpke</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Om Mig</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Erfaring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Kvalifikationer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certificeringer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Sprog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#volunteer">Frivilligt Arbejde</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Alexander Køpke" class="profile-img rounded-circle mb-3">
+            <h1 class="display-4">Alexander Køpke</h1>
+            <p class="lead">Erfaren Lager- og Logistikmedarbejder | Truckfører | Kundeservice</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Om Mig</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p>
+                        Jeg er en erfaren og alsidig medarbejder med bred viden inden for lager, logistik og kundeservice. Jeg trives med at løse praktiske opgaver og sikre, at arbejdet bliver udført effektivt og sikkert. Jeg er kendt for at være en behagelig og hjælpsom kollega, der altid sætter en ære i at levere et godt stykke arbejde.
+                    </p>
+                    <p>
+                        Jeg har erfaring med truckkørsel, pluk og pak, vareudbringning og kundebetjening. Jeg er også certificeret i GMP (Good Manufacturing Practice) og har kendskab til SAP og Microsoft Dynamics NAV.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Arbejdserfaring</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Frivilig i Genbrugsbutik - Kirkens Korshær</h5>
+                            <p class="card-text"><strong>December 2023 - Nu</strong></p>
+                            <p>Afhentning og udbringning af møbler, sortering og kørsel til genbrugsplads, kundebetjening.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Praktik som Teknisk Servicemedarbejder - Rismølleskolen</h5>
+                            <p class="card-text"><strong>August 2023 - August 2023</strong></p>
+                            <p>Græsslåning, hækklipping, småreparationer, vandtestning i svømmehal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Ufaglært Produktionsmedarbejder - Nopa Nordic</h5>
+                            <p class="card-text"><strong>Juli 2023 - Juli 2023</strong></p>
+                            <p>Klargøring af papbeholdere, fjernelse af vand fra gulv, kørsel med stabler.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Lagermedarbejder - Danfoss</h5>
+                            <p class="card-text"><strong>August 2022 - December 2022</strong></p>
+                            <p>Inbound, outbound, pluk og pak, læsning af lastbiler.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Kvalifikationer</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Truckkørsel</h5>
+                            <p class="card-text">Certificeret i gaffeltruck (Certifikat B).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Kundeservice</h5>
+                            <p class="card-text">Erfaring med kundebetjening og problemløsning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">IT-færdigheder</h5>
+                            <p class="card-text">Øvet i SAP, Microsoft Dynamics NAV og Microsoft Office.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Certificeringer</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaffeltruck Certifikat B</h5>
+                            <p class="card-text">Teoretisk og praktisk uddannelse i gaffeltruckkørsel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">EU-efteruddannelse for Buschauffører</h5>
+                            <p class="card-text">Lovpligtig efteruddannelse for buschauffører.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">GMP (Good Manufacturing Practice)</h5>
+                            <p class="card-text">Certificering i GMP-regler for medicinalindustrien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Sprog</h2>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Dansk</h5>
+                            <p class="card-text">Flydende/modersmål</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Engelsk</h5>
+                            <p class="card-text">Flydende</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Fransk</h5>
+                            <p class="card-text">Begynder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Tysk</h5>
+                            <p class="card-text">Øvet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Work Section -->
+    <section id="volunteer" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Frivilligt Arbejde</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h5>Hjælp med at holde en skakturnering - VUC Haderslev</h5>
+                    <p><strong>Marts 2015</strong></p>
+                    <p>Planlægning af runder, praktiske opgaver som salg af sodavand, opdatering af resultater og rapportering af problemer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Kontakt</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p><strong>Adresse:</strong> Flintebjerg Alle 11, 3 th, 8900 Randers C</p>
+                    <p><strong>Telefon:</strong> +45 42 24 40 48</p>
+                    <p><strong>Email:</strong> hapnvstevison@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Alexander Køpke. Alle rettigheder forbeholdes.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
